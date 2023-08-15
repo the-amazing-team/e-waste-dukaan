@@ -113,3 +113,11 @@ input [type = "submit"]:hover{
 .signup_link a:hover{
     text-decoration: underline;
 }
+
+.login-btn {
+    background-color: #000;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+}
