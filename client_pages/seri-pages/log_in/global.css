@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+    --font-fira-sans: "Fira Sans";
+  
+    /* font sizes */
+    --font-size-21xl: 40px;
+  
+    /* Colors */
+    --color-black: #000;
+  
+    /* border radiuses */
+    --br-36xl: 55px;
+  }
+  
