@@ -1,0 +1,133 @@
+.getting-started-page-child {
+    position: absolute;
+    top: 153px;
+    left: 47.05px;
+    width: 304.76px;
+    height: 493px;
+    object-fit: cover;
+  }
+  .be-the-part {
+    position: absolute;
+    top: 601.28px;
+    left: 45px;
+    font-family: var(--font-iceberg);
+    display: inline-block;
+    width: 314px;
+    height: 17.45px;
+  }
+  .getting-started-page-item {
+    position: absolute;
+    top: 480px;
+    left: 37px;
+    background-color: var(--color-white);
+    width: 293px;
+    height: 75px;
+    display: none;
+  }
+  .getting-started-page-inner {
+    top: 597px;
+    left: 35px;
+    background-color: var(--color-white);
+    width: 295px;
+    height: 42px;
+  }
+  .getting-started-page-inner,
+  .group-icon,
+  .rectangle-div {
+    position: absolute;
+    display: none;
+  }
+  .rectangle-div {
+    top: 24px;
+    left: 63px;
+    background-color: #d9d9d9;
+    width: 178px;
+    height: 94px;
+  }
+  .group-icon {
+    top: 8px;
+    left: 101.97px;
+    width: 166.48px;
+    height: 78.9px;
+  }
+  .dukaan {
+    font-weight: 300;
+  }
+  .ewaste-dukaan,
+  .ewaste-dukaan1 {
+    position: absolute;
+    color: var(--color-palevioletred);
+  }
+  .ewaste-dukaan {
+    top: 65px;
+    left: 33px;
+    font-size: 56px;
+    display: none;
+    width: 287px;
+    height: 119px;
+  }
+  .ewaste-dukaan1 {
+    top: 253px;
+    right: 630px;
+    font-size: 24px;
+    display: inline-block;
+    width: 195px;
+    height: 44px;
+  }
+  .getting-started-page-child1 {
+    position: absolute;
+    top: 152px;
+    left: 106px;
+    background-color: var(--color-white);
+    width: 172px;
+    height: 32px;
+  }
+  .getting-started-page-child2 {
+    position: absolute;
+    top: 681px;
+    left: 49px;
+    border-radius: 57px;
+    background-color: #b9fe49;
+    width: 291px;
+    height: 65px;
+    cursor: pointer;
+  }
+  .e-waste,
+  .get-started {
+    position: absolute;
+    display: inline-block;
+  }
+  .get-started {
+    top: calc(50% + 268px);
+    left: calc(50% - 99.5px);
+    font-size: 31px;
+    font-family: var(--font-magra);
+    width: 184px;
+    height: 20px;
+  }
+  .e-waste {
+    top: 753px;
+    left: 66px;
+    font-family: var(--font-hind-siliguri);
+    width: 253px;
+    height: 17px;
+  }
+  .getting-started-page-child3 {
+    position: absolute;
+    top: 86px;
+    left: 104.73px;
+    width: 174.46px;
+    height: 115.3px;
+  }
+  .getting-started-page {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 856px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  

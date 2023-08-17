@@ -1,0 +1,109 @@
+.login-sign-up-page-forgot-child {
+    position: absolute;
+    top: 75px;
+    left: 93px;
+    width: 218px;
+    height: 144px;
+    display: none;
+  }
+  .be-the-contributer {
+    position: absolute;
+    top: 319px;
+    left: 18px;
+    font-size: 32px;
+    display: inline-block;
+    color: #92075a;
+    width: 363px;
+    height: 79px;
+  }
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-36xl);
+    background-color: #b9fe49;
+    width: 196px;
+    height: 74px;
+  }
+  .log-in {
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    display: inline-block;
+    width: 166px;
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: 469px;
+    left: 100px;
+    width: 196px;
+    height: 74px;
+    cursor: pointer;
+  }
+  .group-item {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: var(--br-36xl);
+    width: 276px;
+    height: 64px;
+    mix-blend-mode: darken;
+  }
+  .sign-in {
+    position: absolute;
+    top: 10px;
+    left: 77px;
+  }
+  .vector-parent {
+    position: absolute;
+    top: 579px;
+    right: 62px;
+    width: 276px;
+    height: 64px;
+    cursor: pointer;
+  }
+  .dont-have-an {
+    margin: 0;
+  }
+  .dont-have-an-container {
+    position: absolute;
+    top: 669px;
+    left: 106px;
+    font-size: 20px;
+  }
+  .group-inner {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    width: 150.21px;
+    height: 92px;
+  }
+  .dukaan {
+    font-weight: 300;
+  }
+  .ewaste-dukaan,
+  .group-parent {
+    position: absolute;
+    top: 94px;
+    left: 0;
+  }
+  .group-parent {
+    top: 139px;
+    left: 110px;
+    width: 178px;
+    height: 123px;
+    font-size: 24px;
+    font-family: var(--font-inter);
+  }
+  .login-sign-up-page-forgot {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 856px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-fira-sans);
+  }
+  
