@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* border: solid thin #000; */
+}
+
+/* 
+.logo {
+    margin: 100px;
+} */
+
+.sub-heading {
+    color: #92075A;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.login-btn {
+    background-color: #B9FE49;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.sign-in-btn {
+    background-color: #B9FE49;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.instruction {
+    text-align: center;
+    font-weight: 500;
+}
