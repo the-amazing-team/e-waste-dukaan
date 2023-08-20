@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(img/truck.png) no-repeat center 50vh;
+    background-size: cover;
+}
+
+.header {
+    background: #B9FE49;
+    display: flex;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.header-left {
+    flex: 1;
+    /* font-weight: 600; */
+}
+
+.container {
+    padding: 10px;
+}
+
+.order-container {
+    background-color: #B9FE49;
+    border-radius: 0px 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    align-items: center;
+}
+
+.detail {
+    flex: 1;
+}
+
+.date {
+    font-weight: 600;
+    text-align: center;
+}
+
+.detail .main-address {
+    text-transform: uppercase;
+    /* font-weight: 600; */
+}
+
+.detail .sub-address {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.cta button {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #03F246;
+}
+
+.back-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: #0000007e;
+    font-weight: 600;
+    cursor: pointer;
+}
