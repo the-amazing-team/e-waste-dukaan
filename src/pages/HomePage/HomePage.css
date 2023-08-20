@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    /* border: solid thin #000; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 650px;
+}
+
+.cta-sell-scrap-btn {
+    background-color: #A3FF0D;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 70%;
+    font-weight: 700;
+    cursor: pointer;
+    color: #000;
+}
+
+.slide {
+    background-color: #A5F8FD;
+    display: flex;
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.slide .slide-image {
+    width: 150px;
+}
+
+.slide .slide-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide .slide-text {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.delivery-made-img-box {
+    background: url(img/delivery.png) center center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Navbar */
+
+.nav-bar {
+    background: #fff;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0px;
+    padding: 15px 0px;
+    border-top: solid medium #000;
+}
+
+.nav-bar .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar .item .item-logo {
+    width: 25px;
+    /* height: 50px; */
+}
+
+.nav-bar .item .item-logo img {
+    width: 100%;
+}
+
+.spacing {
+    height: 100px;
+}
