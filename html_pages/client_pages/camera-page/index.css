@@ -1,0 +1,42 @@
+body {
+    background-color: #000;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+}
+
+.canvas {
+    background: url(img/canvas.png) center center no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 90%;
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+    /* position: fixed; */
+}
+
+.canvas .cross img {
+    width: 30px;
+}
+
+.canvas .capture-btn img {
+    width: 90px
+}
+
+.canvas .cross {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.canvas .capture-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
