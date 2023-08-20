@@ -8,6 +8,7 @@ import LoginPage from './pages/LoginPage/LoginPage';
 import RegisterPage from './pages/RegisterPage/RegisterPage';
 import HomePage from './pages/HomePage/HomePage';
 import ProfilePage from './pages/ProfilePage/ProfilePage';
+import CategoryPage from './pages/CategoryPage/CategoryPage';
 
 /* Core CSS required for Ionic components to work properly */
 // import '@ionic/react/css/core.css';
@@ -51,6 +52,9 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/profile-page">
           <ProfilePage />
+        </Route>
+        <Route exact path="/category-page">
+          <CategoryPage />
         </Route>
         <Route exact path="/">
           <Redirect to="/getting-started-page" />
