@@ -4,6 +4,7 @@ import { IonReactRouter } from '@ionic/react-router';
 
 import GettingStartedPage from './pages/GettingStartedPage/GettingStartedPage';
 import LoginSelectorPage from './pages/LoginSelectorPage/LoginSelectorPage';
+import LoginPage from './pages/LoginPage/LoginPage';
 
 /* Core CSS required for Ionic components to work properly */
 // import '@ionic/react/css/core.css';
@@ -35,6 +36,9 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/login-selector-page">
           <LoginSelectorPage />
+        </Route>
+        <Route exact path="/login-page">
+          <LoginPage />
         </Route>
         <Route exact path="/">
           <Redirect to="/getting-started-page" />
