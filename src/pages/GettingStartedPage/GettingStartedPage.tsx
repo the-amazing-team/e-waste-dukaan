@@ -6,10 +6,10 @@ const GettingStartedPage: React.FC = () => {
     <IonPage className="ion-page">
       <div className="container">
           <div className="logo">
-              <img src="src/pages/img/logo.png" alt="logo" />
+              <img src="src/pages/GettingStartedPage/img/logo.png" alt="logo" />
           </div>
           <div className="welcome-background">
-              <img src="src/pages/img/welcome.png" alt="background-image" />
+              <img src="src/pages/GettingStartedPage/img/welcome.png" alt="background-image" />
           </div>
           <div className="quote">
               Be the part of the solution not the part <br />

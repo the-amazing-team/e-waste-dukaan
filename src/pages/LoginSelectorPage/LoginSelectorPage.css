@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    height: 500px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* border: solid thin #000; */
+}
+
+.ion-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* 
+.logo {
+    margin: 100px;
+} */
+
+.sub-heading {
+    color: #92075A;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.login-btn {
+    background-color: #B9FE49;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000;
+}
+
+.sign-in-btn {
+    background-color: #B9FE49;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000;
+}
+
+.instruction {
+    text-align: center;
+    font-weight: 500;
+}
