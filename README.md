@@ -62,3 +62,4 @@ E-WASTE DUKAAN is a two-fold platform that combines advanced image recognition t
 2. They schedule an appointment with the user for device inspection.
 3. Components are physically verified and compared to the checklist.
 4. Technicians update the checklist and confirm the final valuation.
+5. https://stats.quine.sh/Sairaj7070/github?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=Sairaj7070)
