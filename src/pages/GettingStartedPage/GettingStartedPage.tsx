@@ -1,5 +1,6 @@
 import "./GettingStartedPage.css"
 import { IonImg, IonPage } from "@ionic/react";
+import { Link } from "react-router-dom";
 
 import Logo from "./img/logo.png";
 import Welcome from "./img/welcome.png";
@@ -18,7 +19,11 @@ const GettingStartedPage: React.FC = () => {
               Be the part of the solution not the part <br />
               of the pollution
           </div>
-          <div className="cta-getting-started">Getting Started</div>
+          <a href="/login-selector-page">
+            <button className="cta-getting-started">
+              Getting Started
+            </button>
+          </a>
           <div className="sub-cta-line">E-Waste | Large Appliance</div>
       </div>
     </IonPage>
