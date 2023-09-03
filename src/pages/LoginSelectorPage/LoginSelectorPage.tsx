@@ -12,7 +12,7 @@ const LoginSelectorPage: React.FC = () => {
             Be the contributor to<br />
             save mother earth.
         </div>
-        <button className="login-btn">Log In</button>
+        <button className="sign-in-btn">Log In</button>
         <button className="sign-in-btn">Sign in</button>
         <div className="instruction">
             Don't have an account? <br />
